@@ -6,8 +6,7 @@ __pycache__/
 # Ignore virtual environment directories
 venv/
 env/
-# Ignore Jupyter Notebook metadata files
-*.ipynb
+
 # Ignore system files
 .DS_Store
 Thumbs.db
@@ -29,9 +28,5 @@ htmlcov/
 .mypy_cache/
 # Ignore large files bigger than 20MB
 *>20MB
-# Ignore dataset files
-*.csv >20MB
-*.xlsx >20MB
-*.parquet >20MB
-*.jsonl >20MB
+
 
